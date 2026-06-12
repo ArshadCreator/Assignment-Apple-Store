@@ -1,0 +1,691 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    overflow-x:hidden;
+}
+/* navigation bar */
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(44, 44, 44, 0.9);
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: -0px;  
+}
+.logo{
+    height: 60px;
+    width: 20%;
+}
+.listting{
+    height: 60px;
+    width: 65%;
+}
+.icons{
+    height: 60px;
+    width: 15%;
+}
+.logo-img{
+    height: 30px;
+    width: 9%;
+    margin-top: 20px;
+    margin-left: 50%;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.753);
+}
+.img-icon{
+    color: rgba(255, 255, 255, 0.753);
+    margin-left: 20%;
+    margin-top: 25px;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+.li1{
+    margin-left: 20px;
+}
+li{
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 1.2em;
+
+}
+/* Main front Page */
+.first-parent-div{
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    margin-left: -0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.second-image{
+    height: 250px;
+    width: 250px;
+}
+.third-image{
+    height: 80px;
+    margin-top: 20px;
+    width:50%;
+}
+.first-h2{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: 5px;
+}
+.first-btn{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(74, 107, 255);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.1em;
+    margin-top: 30px;
+}
+/* iPhone 17 pro max */
+.second-parent-div{
+    height: 650px;
+    width: 100%;
+    background-color: black;
+    margin-left: 0px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-h1{
+    color: white;
+    font-size: 3em;
+    padding-top: 70px;
+}
+.second-h2{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: -20px
+}
+.button-image{
+    height: 50px;
+    width: 250px;
+    margin-top: 10px;
+}
+.iPhone-img{
+    margin-top: 50px;
+    width: 75%;
+    height: 415px;
+}
+.iPhone-img-media-screen{
+    height: 301px;
+    width: 30%;
+}
+/* iPhone 16 pro max */
+.third-parent-div{
+    height: 580px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-h1{
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    padding-top: 40px;
+}
+.second-h2{
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+.iphone16{
+    width: 60%;
+    height: 368px;
+}
+/* Parent-div-1 */
+.forth-parent-div{
+    height: 570px;
+    width: 100%;
+    display: flex;
+}
+/* Mac Book and iPad */
+.child1{
+    height: 550px;
+    width: 48.8%;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstH1{
+    margin-top: 30px;
+    font-size: 3em;
+}
+.firstH2{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 40px;
+}
+.img-button{
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+}
+.img-box1{
+    height: 460px;
+     width:100%;
+    margin-top: -70px;
+}
+/* Mac Book */
+.child2{
+    height: 550px;
+    width: 50%;
+    margin: 10px;
+    background: linear-gradient(180deg,rgba(168, 230, 255, 1) 0%, rgba(255, 250, 250, 1) 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstH2{
+    margin-top: -30px;
+}
+.img-box2{
+    height: 350px;
+    width: 100%;
+    margin-top: 0px;
+}
+/* Parent-div-2 */
+.fifth-parent-div{
+    height: 570px;
+    width: 100%;
+    display: flex;
+}
+/* iPad */
+.child3{
+    height: 550px;
+    width: 48.5%;
+    margin: 10px;
+    margin-top: 5px;
+    background: linear-gradient(180deg,rgba(125, 211, 245, 1) 0%, rgba(255, 250, 250, 1) 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoimg{
+    height: 60px;
+    margin-top: 30px;
+}
+.secondH2{
+    margin-top: 0px;
+}
+.img-box3{
+    height: 350px;
+    margin-top: -10px;
+}
+/* Smart Watch */
+.child4{
+    height: 550px;
+    width: 49.5%;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 0px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-box4{
+     width:100%;
+    height: 280px;
+    margin-top: 30px;
+}
+/* Parent-div-3 */
+.sixth-parent-div{
+    height: 570px;
+    width: 100%;
+    display: flex;
+}
+/* Air pods */
+.child5{
+    height: 550px;
+    width: 49.2%;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondH2{
+    margin-top: 0px;
+}
+.btn-img{
+    margin-bottom: 13px;
+    margin-top: 20px;
+}
+.img-box5{
+    height: 265px;
+    width: 100%;
+}
+/* iPhone 15 */
+.child6{
+    height: 550px;
+    width: 49.5%;
+    margin: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(74, 107, 255);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.1em;
+    padding-top: 0px;
+    /* margin-top: 20px; */
+}
+.img-box6{
+    height: 300px;
+    width: 100%;
+}
+/* Large heading */
+.big-heading{
+    height: 150px;
+    width: 100%;
+    margin-top: -10px;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 3.3em;
+}
+/* Screen-cover-image */
+.big-image{
+    height: 500px;
+    width: 100%;
+    background-image: url(./bg\ img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.imglogo{
+    height: 300px;
+    width: 30%;
+    margin-top: 70px;
+    margin-left: 4%;
+}
+.man-img{
+    margin-top: 29px;
+    margin-left: 50%;
+    margin-top: 40px;
+    height: 460px;
+}
+.i-btn{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.1em;
+    margin-left: -65%;
+    margin-top: 410px;
+}
+.i-p{
+    font-size: 1.7em;
+    color: white;
+    margin-top: 420px;
+    margin-left: 2%;
+}
+/* 3-part-of-screen-image */
+
+.small-image{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.image1, .image2, .image3{
+    height: 290px;
+    width: 33%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.image1{
+    margin-left: 0px;    
+}
+.img3d{
+    height: 290px;
+    width: 100%;
+}
+/* large paragraph */
+.big-paragraph{
+    color: rgb(97, 96, 96);
+    font-size: 0.9em;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+/* list-parent */
+.P1{
+    display: flex;
+   justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+p{
+    color: rgb(97, 96, 96);
+    font-size: 0.9em;
+}
+b{
+    color: black;
+}
+.second-last-paragraph1, .last-paragraph1{
+    margin-left: 150px;
+    width: 100%;
+    min-width: 1400px;
+}
+.second-last-paragraph1{
+    margin-bottom: 40px;
+}
+.last-paragraph1{
+    height: 80px;
+    margin-top: 10px;
+}
+.last-span2{
+    margin-left: 150px;
+}
+.last-span1{
+    margin-left: 50px;
+}
+.icons1{
+    display: hide;
+    margin-left: 40px;
+}
+@media screen and (min-width: 785px) {
+    .iPhone-img-media-screen{
+        display: none;
+    }
+    .icon3{
+        display: none;
+    }
+    .iphone16-media-screen{
+        display: none;
+    }
+    .input-part{
+        display: none;
+    }
+    
+    .second-last-paragraph2, .last-paragraph2{
+        display: none;
+    }
+    .bigpara{
+        width: 85%;
+        min-width: 1200px;
+    }
+    .P1{
+        width: 85%;
+        min-width: 1200px;
+        margin-left: 100px;
+    }
+    .last-span2{
+        margin-left: 10px;
+    }
+
+}
+@media screen and (max-width: 785px) {
+   body{
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    overflow-x:hidden;
+}
+    .nav{
+        height: 100px;
+        width: 100%;
+    }
+    .nav-ul{
+        width:100%;
+        display:flex;
+        align-items:center;
+    }
+    .logo-img{
+        width: 80px;
+        height: 50px;
+        margin-top: -5px;
+    }
+    .icon1, .icon2, .icon3{
+        height: 50px;
+        width: 80px;
+    }
+    .icon1{
+        margin-left:auto;
+    }
+    li{
+        display: none;
+    }
+    .first-parent-div, .second-parent-div, .third-parent-div{
+        height: 1500px;
+    }
+    .second-image{
+        height: 600px;
+        width: 600px;
+    }
+    .third-image{
+        width:90%;
+        max-width:100%;
+        height:auto;
+    }
+    .first-h2, .second-h2{
+        font-size: 2.8em;
+        margin-top: 40px;
+    }
+    .first-btn{
+        height: 100px;
+        width: 350px;
+        font-size: 2.5em;
+        margin-top: 70px;
+    }
+    .first-h1, .second-h1{
+        font-size: 6em;
+        margin-top: 200px;
+    }
+    .button-image{
+        height: 100px;
+        width: 500px;
+        margin-top: 70px;
+    }
+    .iPhone-img-media-screen{
+        margin-top: 100px;
+        height: 1000px;
+        width: 700px;
+    }
+    .iPhone-img{
+        display: none;
+    }
+    .iphone16{
+        display: none;
+    }
+    .iphone16-media-screen{
+        height: 800px;
+        width: 700px;
+        margin-top: 50px;
+    }
+    .forth-parent-div, .fifth-parent-div, .sixth-parent-div{
+        flex-direction: column;
+        height: 2500px
+    }
+    .child1, .child2, .child3, .child4, .child5, .child6{
+        height: 1250px;
+        width: 100%;
+    }
+    .firstH1{
+        font-size: 6em;
+        margin-top: 200px;
+    }
+    .firstH2{
+        font-size: 3em;
+        margin-top: 40px;
+    }
+    .img-button, .button{
+        height: 100px;
+        width: 400px;
+        margin-top: 50px;
+    }
+    .img-box1, .img-box3{
+        height: 700px;
+        margin-top: -50px;
+    }
+    .img-box2{
+        height: 600px;
+        margin-top: -10px;
+    }
+    .logoimg{
+        height: 150px;
+        margin-top: 150px;
+    }
+    .img-box4{
+        height: 550px;
+    }
+    p{
+       display: none;
+    }
+    .img-box5{
+        height: 600px;
+    }
+    .button{
+        font-size: 2.5em;
+    }
+    .img-box6{
+        height: 600px;
+    }
+    .big-heading{
+        height: 200px;
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 6em;
+    }
+    .big-image{
+        height: 1200px;
+    }
+    .imglogo{
+        margin-left: 35%;
+    }
+    .i-btn{
+        display: none;
+    }
+    .man-img{
+        height: 700px;
+        margin-top: 410px;
+        margin-left: -80%;
+    }
+    .small-image{
+        flex-direction: column;
+        height: 3000px;
+    }
+    .image1, .image2, .image3{
+        height: 1000px;
+        width: 100%;
+    }
+    .img3d{
+        height: 1000px;
+        margin-bottom: 30px;
+    }
+    p{
+        display: hide;
+    }
+    .input-part{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        height: 80px;
+        width: 85%;
+        margin-top: 10px;
+        margin-left: 10%;
+        border: 1px solid black;
+    }
+    ::placeholder{
+        font-size: 2em;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    .P1{
+        width: 100%;
+    }
+    .LP{
+        display: block;
+        width: 100%;
+        font-size: 1.2em;
+        margin-left: 7%;
+        margin-top: 20px;
+    }
+    a{
+        margin-left: 40px;
+    }
+    .L-P{
+        display: flex;
+    }
+    .second-last-paragraph, .last-paragraph{
+        display: none;
+    }
+    .LastP1{
+        width: 100%;
+        height: 200px;
+        display: block;
+        display: flex;
+        flex-direction: row;
+    }
+    .LastP2{
+        width: 100%;
+        height: 200px;
+        margin-top: -50px;
+        display: block;
+        display: flex;
+        flex-direction: row;
+    }
+    .last-paragraph2{
+        margin-top: -150px;
+    }
+    .second-last-paragraph2{
+        margin-top: 10px;
+    }
+    .last-span1, .last-span2, .L-S, a{
+        margin-left: 10px;
+    }
+     .second-last-paragraph1, .last-paragraph1{
+        display: none;
+    }
+    .second-last-paragraph2, .last-paragraph2{
+        margin-left: -10px;
+    }
+    .big-paragraph{
+        display: block;
+        width: 80%;
+    }
+}
