@@ -26,11 +26,13 @@ body{
 }
 .listting{
     height: 60px;
-    width: 65%;
+    width: 55%;
 }
 .icons{
     height: 60px;
-    width: 15%;
+    width: 25%;
+    margin-top: -10px;
+    display: flex;
 }
 .logo-img{
     height: 30px;
@@ -46,7 +48,7 @@ body{
 }
 .img-icon{
     color: rgba(255, 255, 255, 0.753);
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 25px;
     font-weight: 200;
     font-size: 1.2em;
@@ -55,9 +57,9 @@ body{
     margin-left: 20px;
 }
 li{
-    margin-left: 25px;
+    margin-left: 30px;
     margin-top: 25px;
-    font-size: 1.2em;
+    font-size: 0.9em;
 
 }
 /* Main front Page */
@@ -388,6 +390,9 @@ h1{
     font-size: 0.9em;
     margin-top: 100px;
     margin-left: 150px;
+    width: 90%;
+}
+.bigpara{
 }
 /* list-parent */
 .P1{
@@ -463,7 +468,7 @@ b{
     padding: 0px;
     width:100%;
     overflow-x:hidden;
-}
+    }
     .nav{
         height: 100px;
         width: 100%;
@@ -474,13 +479,23 @@ b{
         align-items:center;
     }
     .logo-img{
-        width: 80px;
+        width: 50px;
         height: 50px;
-        margin-top: -5px;
+        margin-top: 5px;
+    }
+    .listting{
+        display: none;
     }
     .icon1, .icon2, .icon3{
         height: 50px;
         width: 80px;
+    }
+    .img-icon{
+        margin-top: 5px;
+    }
+    .icons{
+        flex-direction: row;
+        margin-left: 50px;
     }
     .icon1{
         margin-left:auto;
@@ -492,12 +507,11 @@ b{
         height: 1500px;
     }
     .second-image{
-        height: 600px;
-        width: 600px;
+        height: 300px;
+        width: 70%;
     }
     .third-image{
         width:90%;
-        max-width:100%;
         height:auto;
     }
     .first-h2, .second-h2{
@@ -505,9 +519,9 @@ b{
         margin-top: 40px;
     }
     .first-btn{
-        height: 100px;
-        width: 350px;
-        font-size: 2.5em;
+        height: 50px;
+        width: 200px;
+        font-size: 1.5em;
         margin-top: 70px;
     }
     .first-h1, .second-h1{
@@ -516,13 +530,13 @@ b{
     }
     .button-image{
         height: 100px;
-        width: 500px;
+        width: 300px;
         margin-top: 70px;
     }
     .iPhone-img-media-screen{
         margin-top: 100px;
         height: 1000px;
-        width: 700px;
+        width: 90%;
     }
     .iPhone-img{
         display: none;
@@ -532,7 +546,7 @@ b{
     }
     .iphone16-media-screen{
         height: 800px;
-        width: 700px;
+        width: 90%;
         margin-top: 50px;
     }
     .forth-parent-div, .fifth-parent-div, .sixth-parent-div{
@@ -541,11 +555,13 @@ b{
     }
     .child1, .child2, .child3, .child4, .child5, .child6{
         height: 1250px;
-        width: 100%;
+        width: 90%;
+        margin-left: 20px;
     }
     .firstH1{
-        font-size: 6em;
+        font-size: 3em;
         margin-top: 200px;
+        text-align: center;
     }
     .firstH2{
         font-size: 3em;
@@ -553,56 +569,57 @@ b{
     }
     .img-button, .button{
         height: 100px;
-        width: 400px;
+        width: 200px;
         margin-top: 50px;
     }
-    .img-box1, .img-box3{
-        height: 700px;
-        margin-top: -50px;
+    .btn-img{
+        width: 250px;
+    }
+    .img-box1{
+        height: 400px;
+        width: 300px;
+         margin-top: -50px;
     }
     .img-box2{
-        height: 600px;
-        margin-top: -10px;
+        height: 300px;
+        margin-top: 100px;
     }
     .logoimg{
-        height: 150px;
+        height: 100px;
+        width: 300px;
         margin-top: 150px;
     }
+    .img-box3{
+        width: 300px;
+         margin-top: 50px;
+    }
     .img-box4{
-        height: 550px;
+        margin-top: 200px;
+        height: 200px;
     }
     p{
        display: none;
     }
     .img-box5{
-        height: 600px;
+        margin-top: 200px;
+        height: 300px;
     }
     .button{
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .img-box6{
-        height: 600px;
+        height: 300px;
     }
     .big-heading{
         height: 200px;
         margin-top: 20px;
     }
     h1{
-        font-size: 6em;
+        font-size: 3em;
     }
     .big-image{
-        height: 1200px;
-    }
-    .imglogo{
-        margin-left: 35%;
-    }
-    .i-btn{
         display: none;
-    }
-    .man-img{
-        height: 700px;
-        margin-top: 410px;
-        margin-left: -80%;
+        
     }
     .small-image{
         flex-direction: column;
@@ -611,6 +628,9 @@ b{
     .image1, .image2, .image3{
         height: 1000px;
         width: 100%;
+    }
+    .image2, .image3{
+        width: 310px;
     }
     .img3d{
         height: 1000px;
@@ -624,19 +644,15 @@ b{
         flex-direction: column;
     }
     input{
-        height: 80px;
-        width: 85%;
+        height: 50px;
+        width: 100%;
         margin-top: 10px;
-        margin-left: 10%;
         border: 1px solid black;
     }
     ::placeholder{
         font-size: 2em;
         font-weight: bold;
         padding-left: 20px;
-    }
-    .P1{
-        width: 100%;
     }
     .LP{
         display: block;
@@ -670,7 +686,7 @@ b{
         flex-direction: row;
     }
     .last-paragraph2{
-        margin-top: -150px;
+        margin-top: -100px;
     }
     .second-last-paragraph2{
         margin-top: 10px;
@@ -686,6 +702,7 @@ b{
     }
     .big-paragraph{
         display: block;
-        width: 80%;
+        width: 100%;
+        margin-left: 0px;
     }
 }
